@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #364857;
+        }
+        .main {
+            overflow: hidden;
+        }
+        .navbar-1 {
+            height: 10vh;
+            width: 100vw;
+            width: 100vw;
+            text-align: center;
+            background-color: #05cc47;
+            justify-content: center;
+            align-items: center;
+            border: 5px;
+            border-top: 5px solid black;
+            border-bottom: 5px solid black;
+            border-right: 0px solid black;
+            border-left: 0px solid black;
+        }
+        .navbar-1 > a {
+            font-size: 3.25em;
+            font-weight: bold;
+            font-family: Helvetica;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+        .navbar-2 {
+            display: flex;
+            flex-basis: 20%;
+            justify-content: space-between;
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+            border: 5px solid black;
+            border-top: 0px solid black;
+            background-color: #364857;
+            width: 20%;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+        .menu > a {
+            display: inline-block;
+            font-family: Helvetica;
+            margin: 15px 0;
+            padding: 1em;
+            border: 2px solid black;
+            color: white;
+            text-decoration: none;
+        }
+        .main-news {
+            display: flex;
+            flex-direction: row;
+            height: 40vh;
+            border: 5px solid black;
+            border-bottom: 0px solid black;
+            border-top: 0px solid black;
+            border-left: 0px solid black;
+            border-right: 5px solid black;
+            background-color: white;
+        }
+        .mainimg, .firstimg, .secondimg, .thirdimg, .fourthimg, .fifthimg, .sixthimg, .seventhimg {
+            width: 20%;
+        }
+        .wrapper {
+            display: flex;
+        }
+        .navbar-3 {
+            height: 6vh;
+            width: 100vw;
+            width: 100vw;
+            text-align: center;
+            background-color: #05cc47;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 5px solid black;
+            border-top: 5px solid black;
+        }
+        .navbar-3 > a {
+            font-size: 1.75em;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 1px;
+            padding-right: 200px;
+            color: white;
+        }
+        .first-block, .second-block, .third-block, .fourth-block, .fifth-block, .sixth-block {
+            display: flex;
+            flex-direction: row;
+            height: 46vh;
+            border: 5px solid black;
+            border-bottom: 0px solid black;
+            border-top: 0px solid black;
+            border-left: 0px solid black;
+            border-right: 5px solid black;
+            background-color: white;
+        }
+        a {
+            color: #2cb978;
+        }
+        h1 {
+            font-size: 2.5em;
+            padding-left: 30px;
+            padding-bottom: 2px;
+            padding-top: 15px;
+        }
+        h5 {
+            font-size: 1.4em;
+            padding: 30px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+
+        }
+        .probel-1 {
+            height: 2vh;
+            background-color: black;
+        }
+        p {
+            font-size: 0.85em;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="navbar-1">
+        <a href="">LMU</a>
+    </div>
+    <div class="wrapper">
+        <div class="navbar-2">
+            <div class="menu">
+                <a href="">AKTUELLES</a>    
+                <a href="">ÜBER DIE LMU</a>  
+                <a href="">EINRICHTUNGEN</a>  
+                <a href="">STUDIUM</a>       
+                <a href="">FORSCHUNG</a>
+                <a href="">KOOPERATIONEN</a>       
+                <a href="">WEITERBILDUNG</a>
+            </div>
+        </div>
+        <div class="main-2"> 
+            <div class="main-news">
+                <img src="snowden3_1_1_format_m.jpg" alt="" class="mainimg">
+                <span>
+                    <h1><a href="">Das Wissen der Insider</a></h1>
+                    <h5>Der Strafrechtler und Kriminologe Ralf Köbel über die Motivation,die
+                    <br>gesellschaftliche Rolle und den juristischen Schutz von Hinweisgebern.
+                    </h5>
+                </span>
+            </div>
+            <div class="navbar-3"><a href="">LMU AKTUELL</a></div>
+            <div class="first-block">
+                <img src="visualisierung_1_1_format_m.jpg" alt="" class="firstimg">
+                <span>
+                    <h1><a href="">Neubau für die Geo- und <br>Umweltwisssenschaften</a></h5>
+                    <h5>Ab 2024 entsteht in der Scchillerstraße ein neuer campus für die Geo- und Um
+                    <br>weltwissenschaften. Nun hat der Landtag grünes Licht für den Bau gegeben.
+                    </h5>
+                </span>
+            </div>
+            <div class="probel-1"></div>
+            <div class="second-block">
+                <img src="om_171120_g_tz_huge_1_1_format_m.jpg" alt="" class="secondimg">
+                <span>
+                    <h1><a href="">Neuronalle Zellen: Bessere <br>Reprogramierung</a></h5>
+                    <h5>Münchner Forscher können im Experiment Neurone aus Gliazellen gewinnen. M-
+                    <br>it einem Trick läuft diese Umwandlung schneller und mit vierfach höherer Rate.
+                    </h5>
+                </span>
+            </div>
+            <div class="probel-1"></div>
+            <div class="third-block">
+                <img src="img_20201210_130244_1_1_format_m.jpg" alt="" class="thirdimg">
+                <span>
+                    <h1><a href="">"Ein Ausbildung mit<br>Zukunft"</a></h5>
+                    <h5>Jedes Jahr absolvieren rund 20 Azubis an der LMU ihre Ausbildung in der Tech
+                    <br>nik, Tierpflege oder im Labor. Zwei von ihnen sind Francesco und Ramon.
+                </span>
+            </div>
+            <div class="probel-1"></div>
+            <div class="fourth-block">
+                <img src="gehirn_imago_images_shotshop_full_1_1_format_m.jpg" alt="" class="fourthimg">
+                <span>
+                    <h1><a href="">Muster der Schmerzlinderung</a></h5>
+                    <h5>Verschiedene kognitive Strategien beeinflussen das Schmerzempfinden und spre
+                    <br>chen unterschiedliche Bereiche im Gehirn an, zeigt LMU-Forscher Enrico
+                    <br>Schulz.
+                </span>
+            </div>
+            <div class="probel-1"></div>
+            <div class="fifth-block">
+                <img src="02_patrick_rottler_office_2_huge_1_1_format_m.jpg" alt="" class="fifthimg">
+                <span>
+                    <h1><a href="">"Wir blicken in die Abgründe der <br>menschliche Psyche"</a></h5>
+                    <h5>Patrick Rottler ist Sprach-Profiler und kann durch forensische Textanalyse die
+                    <br>Verfasser von Droh- oder Erpresserbriefen überführen.
+                </span>
+            </div>
+            <div class="probel-1"></div>
+            <div class="sixth-block">
+                <img src="lichtenberg_535_web.jpg" alt="" class="sixthimg">
+                <span>
+                    <h1><a href="">Studentisches Engagement in Zeiten <br>der Pandemie</a></h5>
+                    <h5>In dieser Reihe stellen wir LMU-Studierende vor, die anderen im Alltag helfen.
+                    <br>Nachts, am Zuhörertelefon oder durch Coaching von und für Studierende.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
