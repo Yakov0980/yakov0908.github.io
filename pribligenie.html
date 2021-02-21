@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(123, 123, 201);
+            overflow: hidden;
+            margin: 0;
+        }
+        .container {
+            font-size: 1em;
+            color: white;
+            animation: slideIn forwards 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            70% {
+                font-size: 2.75em;
+                padding: 2em;
+            }
+            100% {
+                padding: 1.85em;
+                font-size: 2.75em;
+                background-color: rgb(255, 0, 140);
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    Hello World
+</div>
+</body>
+</html>
