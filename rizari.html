@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGDOM</title>
+    <style>
+    body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #424478;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    h1 {
+        font-family: Bradley Hand, cursive;
+        color: white;
+        font-size: 100px;
+        margin: .25em;
+        align-self: flex-start;
+    }
+    .knights {
+        height: 45%;
+        width: 100%;
+        position: relative;
+    }
+    .leftknight {
+        background-image: url('img/kn_1.png');
+        background-repeat: no-repeat;
+        background-position-x: left;
+        height: 100%;
+        width: 30%;
+        animation: onloadLeft 1s linear;
+        position: absolute;
+        background-size: contain;
+        left: 10%;
+    }
+    .rightknight {
+        background-image: url('img/kn_2.png');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100%;
+        width: 30%;
+        animation: onloadRight 1s linear;
+        position: absolute;
+        background-size: contain;
+        right: 10%;
+    }
+    .zagruzka {
+        font-family: Bradley Hand, cursive;
+        font-size: 60px;
+        border: 5px solid white;
+        color: white;
+        padding: .25em;
+        margin-bottom: 1em;
+        cursor: pointer;
+    }
+
+    @keyframes onloadLeft {
+        0% {
+            opacity: 0;
+            top: -200px;
+        }
+        
+        50% {
+            opacity: 1;
+            top: 10%;
+        }
+        100% {
+            opacity: 1;
+            left: 30%;
+        }
+    }
+    @keyframes onloadRight {
+        0% {
+            opacity: 0;
+            top: -200px;
+        }
+        50% {
+            opacity: 1;
+            top: 10%;
+        }
+        100% {
+            opacity: 1;
+            right: 30%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>LITTLE KINGDOM</h1>
+    <div class="knights">
+        <div class="leftknight">
+
+        </div>
+        <div class="rightknight">
+
+        </div>
+    </div>
+    <div class="zagruzka">DOWNLOAD</div>
+</body>
+</html>
