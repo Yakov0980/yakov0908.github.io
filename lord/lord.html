@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Name = prompt("Введите имя: ")
+        let Name_let = Name.length
+        // # Я сделаю последний пример (имя должно быть от 4 до 6 символов)
+        if (Name_let >= 4 && Name_let <= 6) {
+            console.log("Это имя: " + Name + " идеально вам подходит! ")
+        } else if (Name_let < 4) {
+            let minimum = 4-Name_let
+            console.log("Попробуйте ввести имя больше чем " + Name_let + " символов. Минимальное количество символов: 4. Вы ввели на " + minimum + " cимволов меньше!")
+        } else if (Name_let > 6) {
+            let maksimum = Name_let-6
+            console.log("Попробуйте ввести имя меньше чем " + Name_let + " символов. Максимальное количество символов: 6. Вы ввели на " + maksimum + " cимволов больше!")
+        } else if (Name === false) {
+            console.log("Вы не ввели имя! ")
+        }
+    </script>
+</body>
+</html>
