@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function EmodjiPeople(a) {
+
+            people = ""
+            for (let i = 0; i < a; i++) {
+                people += '👽'
+            }
+            return people;
+        }
+
+        function EmodjiPizza(b) {
+
+            pizza = ""
+            for (let i = 0; i < b; i++) {
+                pizza += '🍕'
+            }
+            return pizza;
+        }
+
+        let people = prompt("Сколько будет людей?")
+
+        let pizza = prompt("Сколько будет пиц?")
+
+        EmodjiPeople(people)
+        EmodjiPizza(pizza)
+
+        alert("Будет людей - " + people + "и пицц - " + pizza)
+    </script>
+</body>
+</html>
