@@ -1,0 +1,51 @@
+.section-ability {
+    margin: 0;
+    height: 80vh;
+    &-wrapper {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        &__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 10vh;
+            h1 {
+                font-size: 2.5em;
+                color: $cyan;
+                font-family: montserrat, sans-serif;
+                font-weight: bold;                
+                font-style: normal;
+            }
+        }
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            height: 70vh;
+            &__icon {
+                display: flex;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                background-color: $cyan;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h5 {
+                    display: flex;
+                    font-size: 24px;
+                    color: black;
+                    font-family: montserrat, sans-serif;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+            } 
+        }
+    }
+}

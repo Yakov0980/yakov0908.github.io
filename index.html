@@ -1,30 +1,137 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Пример страницы для первого урока</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/azo0fbj.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Германия</th>
-            <th>Испания</th>            
-        </tr>
-        <tr>
-            <th>немцы</th>
-            <th>испанцы</th>            
-        <tr>
-            <th>Берлин</th>
-            <th>Мадрид</th>
-        </tr>
-        </tr>
-    </table>
-    <h1>Добро пожаловать на мою страничку</h1>
-    <p>Lorem <strong>ipsum</strong> dolor <mark>amet consectetur</mark>, adipisicing elit. Animi voluptatibusvoluptatum nesciunt excepturi veniam deleniti non. Beatae quis, assumenda dolorum dolorem deleniti culpa dolores <br>amet repudiandae maiores possimus veniam? Harum?</br></p>     
-    <h5>Слишком маленький текст чтобы его рассмотреть</h5>
-    <a href = "about_me.html">Нажми сюда чтобы узнать продолжение.<a></a>
-    <form action = "http://www.google.com/search" method="GET">
-        <input type="text" name="q">
-        <input type=submit value="Поиск">
-    </form>
+    <nav class="section-navbar" id="navbar">
+        <div class="section-navbar-wrapper">
+            <div class="section-navbar-wrapper__logo">
+                <a href=""><h1>Yakov Issakov</h1></a>
+            </div>
+            <div class="burger-menu">
+                <div class="burger-menu-button">
+                </div>
+                <div class="burger-menu__link">
+                    <a href="#">Home</a>
+                </div>
+                <div class="burger-menu__link">
+                    <a href="#header">About</a>
+                </div>
+                <div class="burger-menu__link">
+                    <a href="#ability">Abillities</a>
+                </div>
+                <div class="burger-menu__link">
+                    <a href="#examples">Projects</a>
+                </div>
+                <div class="burger-menu__link">
+                    <a href="#post">Post</a>
+                </div>
+                <div class="burger-menu-links__link">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <div class="links__link">
+                    <a href="#">Home</a>
+                </div>
+                <div class="links__link">
+                    <a href="#header">About</a>
+                </div>
+                <div class="links__link">
+                    <a href="#ability">Abillities</a>
+                </div>
+                <div class="links__link">
+                    <a href="#examples">Projects</a>
+                </div>
+                <div class="links__link">
+                    <a href="#post">Post</a>
+                </div>
+                <div class="links__link">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="section-header" id="header">
+        <div class="section-header-wrapper">
+            <div class="herobox">
+                <div class="herobox__title">
+                    <h1>Обо мне</h1>
+                </div>
+                <div class="herobox__subtitle">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, voluptatibus, aperiam reprehenderit assumenda a corrupti animi itaque iure porro saepe voluptatum? Deserunt recusandae quis, ad tenetur vitae veritatis aperiam. Quos.</p>
+                </div>
+            </div>
+            <div class="section-header-wrapper-image"></div>
+        </div>
+    </header>
+    <section class="section-ability" id="ability">
+        <div class="section-ability-wrapper">
+            <div class="section-ability-wrapper__title">
+                <h1>Мои навыки</h1>
+            </div>
+            <div class="icons">
+                <div class="icons__icon">
+                    <h5>HTML</h5>
+                </div>
+                <div class="icons__icon">
+                    <h5>CSS</h5>
+                </div>
+                <div class="icons__icon">
+                    <h5>JS</h5>
+                </div>
+                <div class="icons__icon">
+                    <h5>PYTHON</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-examples" id="examples">
+        <div class="section-examples-wrapper">
+            <div class="section-examples-wrapper__title">
+                <h1>Мои Проекты</h1>
+            </div>
+            <div class="cards">
+                <div class="cards__card">
+                    <div class="card__image"></div>
+                    <div class="card-footer">
+                        <div class="card-footer__title">
+                            <h5>SOON...
+                                <!-- <a href="#">
+                                    S
+                                </a> -->
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-post" id="post">
+        <div class="section-post-wrapper">
+            <div class="section-post-wrapper__title">
+                <h1>Моя почта</h1>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    <h1>My Gmail:  yakov.issakov@gmail.com</h1>
+                </div>
+                <div class="card__subtitle">
+                    <h5>Write me on this post if you want a site or rate my site</h5>
+                </div>
+                <button><a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzGljlqmgZZflczHcQwNBvQZFFML"><h5>WRITE ME</h5></a></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/8a6e644b09.js" crossorigin="anonymous"></script>
+
+    <script src="js/portfolio.js"></script>
 </body>
 </html>

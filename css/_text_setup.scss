@@ -1,0 +1,11 @@
+$arial: 'Arial', sans-serif !default;
+$segoe: 'Segoe Print', serif !default;
+
+// text font-family
+h1, h2, h3, h4, h5, h6 {
+    font-family: $arial;
+}
+
+a, p {
+    font-family: $segoe;
+}

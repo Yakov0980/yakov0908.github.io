@@ -1,0 +1,16 @@
+@import './adaptiv';
+@import './reset';
+@import './colors';
+@import './text_setup';
+@import './navbar';
+@import './header';
+@import './ability';
+@import './examples';
+@import './post';
+
+body {
+    background-color: $dark-grey;
+}
+html {
+    scroll-behavior: smooth;
+}
