@@ -9,19 +9,12 @@
 <body>
     <script>
         let chisla = [7, 12, 42, 66, 0, -7, 122, -7.5];
-        let max = 0;
-        let min = 0;
+        let max = chisla[0];
+        let min = chisla[0];
 
         for (let i = 0; i < chisla.length; i++) {
-            const el = chisla[i];
-            if (max === 0 && min === 0) {
-                max = el;
-                min = el;
-            } else if (el < min) {
-                min = el;
-            } else if (el > max) {
-                max = el;
-            }
+            if (chisla[i] > max) { max = chisla[i] }
+            if (chisla[i] < min) { min = chisla[i] }
         }
         
         console.log("Минимальное число: " + min);
